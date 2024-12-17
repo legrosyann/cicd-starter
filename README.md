@@ -1,13 +1,4 @@
-<<<<<<< Updated upstream
-![alt text goes here](https://github.com/legrosyann/cicd-starter/actions/workflows/ci/badge.svg)
-
-=======
-<<<<<<< Updated upstream
-=======
-![tests result](https://github.com/legrosyann/cicd-starter/actions/workflows/ci.yml/badge.svg)
-
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+![code coverage badge](https://github.com/legrosyann/cicd-starter/actions/workflows/ci/badge.svg)
 # learn-cicd-starter (Notely)
 
 This repo contains the starter code for the "Notely" application for the "Learn CICD" course on [Boot.dev](https://boot.dev).
