@@ -14,7 +14,7 @@ func TestGetAPIKey(t *testing.T) {
 		want  string
 		err   error
 	}{
-		"simple":                  {input: map[string][]string{"Authorization": {"ApiKey key"}}, want: "test", err: nil},
+		"simple":                  {input: map[string][]string{"Authorization": {"ApiKey key"}}, want: "key", err: nil},
 		"no header Authorization": {input: map[string][]string{"Auth": {"ApiKey key"}}, want: "", err: errors.New("no authorization header included")},
 		"malformed no apiKey":     {input: map[string][]string{"Authorization": {"ApiKey"}}, want: "", err: errors.New("malformed authorization header")},
 		"malformed":               {input: map[string][]string{"Authorization": {"Key key"}}, want: "", err: errors.New("malformed authorization header")},
